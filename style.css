@@ -6,11 +6,7 @@ body {
 
 section {margin: 8px 96px}
 
-p:nth-last-of-type(2)::first-letter 
-            {font-family: serif;
-                font-size:48px;
-                float: left;
-                line-height: 40px;}
+
 
 h1 {font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: thin;
@@ -36,6 +32,22 @@ nav a:link { text-decoration-line: none;
 nav a:hover { text-decoration-line:underline}
 nav a:visited { text-decoration-line: none;
           color:lightgoldenrodyellow} 
+
+
+section {
+          animation-duration: 3s;
+          animation-name: slidein;
+        }
+        
+        @keyframes slidein {
+          from {
+opacity: 0%;
+          }
+        
+          to {
+opacity: 100%
+          }
+        }
 
 section {border: 1px solid pink;
         padding: 32px;
