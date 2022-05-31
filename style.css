@@ -37,10 +37,13 @@ nav a:visited { text-decoration-line: none;
         @keyframes slidein {
           0% {
 background-color: #eee;
+border: 1px solid pink;
+
           }
         
           100% {
 background-color: purple;
+border: 2px solid red;
           }
         }
 
