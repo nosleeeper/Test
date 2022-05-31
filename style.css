@@ -33,11 +33,6 @@ nav a:hover { text-decoration-line:underline}
 nav a:visited { text-decoration-line: none;
           color:lightgoldenrodyellow} 
 
-
-section {
-          animation-duration: 3s;
-          animation-name: slidein;
-        }
         
         @keyframes slidein {
           from {
@@ -49,7 +44,10 @@ opacity: 100%;
           }
         }
 
-section {border: 1px solid pink;
+section {
+    animation-duration: 5s;
+    animation-name: slidein;
+        border: 1px solid pink;
         padding: 32px;
         border-radius: 20px;
         box-shadow: 0 0 50px #eee;}
