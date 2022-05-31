@@ -35,7 +35,7 @@ nav a:visited { text-decoration-line: none;
 
         
         @keyframes slidein {
-          0$ {
+          0% {
 background-color: #eee;
           }
         
@@ -45,13 +45,15 @@ background-color: purple;
         }
 
 section {
-    animation-duration: 5s;
-    animation-name: slidein;
-    animation-delay: 300ms;
         border: 1px solid pink;
         padding: 32px;
         border-radius: 20px;
         box-shadow: 0 0 50px #eee;}
+
+
+section:hover {
+    animation-name: slidein;
+}
 
 ol li::before {
         color: red;}
