@@ -47,6 +47,7 @@ opacity: 100%;
 section {
     animation-duration: 5s;
     animation-name: slidein;
+    animation-delay: 300ms;
         border: 1px solid pink;
         padding: 32px;
         border-radius: 20px;
