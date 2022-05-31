@@ -52,7 +52,10 @@ section {
 
 
 section:hover {
-    animation-name: slidein;
+
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-delay: 300ms;
 }
 
 ol li::before {
