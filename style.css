@@ -38,12 +38,14 @@ nav a:visited { text-decoration-line: none;
           0% {
 background-color: #eee;
 border: 1px solid pink;
+transform:rotateZ("-90deg")
 
           }
         
           100% {
 background-color: purple;
 border: 2px solid red;
+transform:rotateZ("0deg")
           }
         }
 
