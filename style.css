@@ -36,11 +36,11 @@ nav a:visited { text-decoration-line: none;
         
         @keyframes slidein {
           from {
-opacity: 0%;
+background-color: #eee;
           }
         
           to {
-opacity: 100%;
+background-color: purple;
           }
         }
 
